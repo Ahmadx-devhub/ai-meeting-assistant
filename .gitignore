@@ -29,10 +29,11 @@ __pycache__/
 *.wav
 *.m4a
 
-# Generated transcription files
+# Ignore generated transcription files
 *.txt
 
-# Model cache
+# But keep Python dependencies
+!requirements.txt# Model cache
 models/
 .cache/
 
